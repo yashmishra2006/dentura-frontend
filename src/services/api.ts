@@ -1,5 +1,5 @@
 // API service for backend integration
-const API_BASE_URL = 'http://boti-boi.om-mishra.com/api';
+const API_BASE_URL = 'https://boti-boi.om-mishra.com/api';
 
 export interface AnalysisRequest {
   image: File;
