@@ -43,7 +43,7 @@ export const ResultsDisplay: React.FC<ResultsDisplayProps> = ({
   };
 
   const downloadReport = () => {
-    const reportContent = `Dentura - Dental Analysis Report
+    const reportContent = `ToothSense - Dental Analysis Report
 ==============================
 
 Disease Detected: ${results.disease}
@@ -69,7 +69,7 @@ Generated on: ${new Date().toLocaleDateString()}
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `dentura-analysis-report-${Date.now()}.txt`;
+    a.download = `toothsense-analysis-report-${Date.now()}.txt`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    title: "Dentura",
+    title: "ToothSense",
     subtitle: "AI-powered dental diagnosis with X-ray and gum image analysis",
     uploadTitle: "Upload Medical Image",
     uploadSubtitle: "Select image type and upload for AI analysis",
@@ -65,7 +65,7 @@ export const translations = {
     loading: "Loading..."
   },
   hi: {
-    title: "डेंचुरा",
+    title: "ToothSense",
     subtitle: "एक्स-रे और मसूड़ों की छवि विश्लेषण के साथ AI-संचालित दंत निदान",
     uploadTitle: "मेडिकल इमेज अपलोड करें",
     uploadSubtitle: "छवि प्रकार चुनें और AI विश्लेषण के लिए अपलोड करें",
